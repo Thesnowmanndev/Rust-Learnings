@@ -1,3 +1,5 @@
+# The Book
+
 /0-The-Book/guessing_game/target/*
 /0-The-Book/guessing_game/.idea/*
 
@@ -27,3 +29,7 @@
 
 /0-The-Book/define-methods/target/*
 /0-The-Book/define-methods/.idea/*
+
+# Small Applicaitons
+/00-Small-Rust-Applications/work-roster/target/*
+/00-Small-Rust-Applications/work-roster/.idea/*

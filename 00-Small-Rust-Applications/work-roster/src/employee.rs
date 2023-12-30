@@ -1,16 +1,6 @@
 use input_validation::{get_bool, get_input};
 
-use crate::view::{
-    print_employee_added,
-    print_cddar_course,
-    print_crane,
-    print_doors_course,
-    print_employee_number,
-    print_flight_control_course,
-    print_forklift,
-    print_high_lift,
-    print_tow,
-};
+use crate::view::*;
 
 pub(crate) struct Employee {
     rank: String,

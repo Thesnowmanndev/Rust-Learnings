@@ -1,34 +1,32 @@
 # The Book
 
-/0-The-Book/guessing_game/target/*
-/0-The-Book/guessing_game/.idea/*
+# Chapter 2
+/0-The-Book/Chapter 2/guessing_game/target/*
+/0-The-Book/Chapter 2/guessing_game/.idea/*
 
-/0-The-Book/control-flow/target/*
-/0-The-Book/control-flow/.idea/*
+# Chapter 3
+/0-The-Book/Chapter 3/control-flow/target/*
+/0-The-Book/Chapter 3/control-flow/.idea/*
 
-/0-The-Book/easy-loop-counter/target/*
-/0-The-Book/easy-loop-counter/.idea/*
+# Chapter 4
+/0-The-Book/Chapter 4/easy-loop-counter/target/*
+/0-The-Book/Chapter 4/easy-loop-counter/.idea/*
+/0-The-Book/Chapter 4/ownership-and-functions/target/*
+/0-The-Book/Chapter 4/ownership-and-functions/.idea/*
+/0-The-Book/Chapter 4/references-and-borrowing/target/*
+/0-The-Book/Chapter 4/references-and-borrowing/.idea/*
+/0-The-Book/Chapter 4/slices/target/*
+/0-The-Book/Chapter 4/slices/.idea/*
+/0-The-Book/Chapter 4/calculate-area/target/*
+/0-The-Book/Chapter 4/calculate-area/.idea/*
 
-/0-The-Book/ownership-and-functions/target/*
-/0-The-Book/ownership-and-functions/.idea/*
-
-/0-The-Book/references-and-borrowing/target/*
-/0-The-Book/references-and-borrowing/.idea/*
-
-/0-The-Book/slices/target/*
-/0-The-Book/slices/.idea/*
-
-/0-The-Book/calculate-area/target/*
-/0-The-Book/calculate-area/.idea/*
-
-/0-The-Book/calculate-area-with-tuples/target/*
-/0-The-Book/calculate-area-with-tuples/.idea/*
-
-/0-The-Book/calculate-area-with-structs/target/*
-/0-The-Book/calculate-area-with-structs/.idea/*
-
-/0-The-Book/define-methods/target/*
-/0-The-Book/define-methods/.idea/*
+# Chapter 5
+/0-The-Book/Chapter 5/calculate-area-with-tuples/target/*
+/0-The-Book/Chapter 5/calculate-area-with-tuples/.idea/*
+/0-The-Book/Chapter 5/calculate-area-with-structs/target/*
+/0-The-Book/Chapter 5/calculate-area-with-structs/.idea/*
+/0-The-Book/Chapter 5/define-methods/target/*
+/0-The-Book/Chapter 5/define-methods/.idea/*
 
 # Small Applicaitons
 /00-Small-Rust-Applications/work-roster/target/*

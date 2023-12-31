@@ -28,6 +28,10 @@
 /0-The-Book/Chapter 5/define-methods/target/*
 /0-The-Book/Chapter 5/define-methods/.idea/*
 
+# Chapter 6
+/0-The-Book/Chapter 6/enum-match/target/*
+/0-The-Book/Chapter 6/enum-match/.idea/*
+
 # Small Applicaitons
 /00-Small-Rust-Applications/work-roster/target/*
 /00-Small-Rust-Applications/work-roster/.idea/*

@@ -31,6 +31,8 @@
 # Chapter 6
 /0-The-Book/Chapter 6/enum-match/target/*
 /0-The-Book/Chapter 6/enum-match/.idea/*
+/0-The-Book/Chapter 6/enum-us-states/target/*
+/0-The-Book/Chapter 6/enum-us-states/.idea/*
 
 # Small Applicaitons
 /00-Small-Rust-Applications/work-roster/target/*

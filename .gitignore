@@ -37,3 +37,5 @@
 # Small Applicaitons
 /00-Small-Rust-Applications/work-roster/target/*
 /00-Small-Rust-Applications/work-roster/.idea/*
+/00-Small-Rust-Applications/todo-macro-example/target/*
+/00-Small-Rust-Applications/todo-macro-example/.idea/*

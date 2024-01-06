@@ -1,41 +1,4 @@
 # The Book
 
-# Chapter 2
-/0-The-Book/Chapter 2/guessing_game/target/*
-/0-The-Book/Chapter 2/guessing_game/.idea/*
-
-# Chapter 3
-/0-The-Book/Chapter 3/control-flow/target/*
-/0-The-Book/Chapter 3/control-flow/.idea/*
-
-# Chapter 4
-/0-The-Book/Chapter 4/easy-loop-counter/target/*
-/0-The-Book/Chapter 4/easy-loop-counter/.idea/*
-/0-The-Book/Chapter 4/ownership-and-functions/target/*
-/0-The-Book/Chapter 4/ownership-and-functions/.idea/*
-/0-The-Book/Chapter 4/references-and-borrowing/target/*
-/0-The-Book/Chapter 4/references-and-borrowing/.idea/*
-/0-The-Book/Chapter 4/slices/target/*
-/0-The-Book/Chapter 4/slices/.idea/*
-/0-The-Book/Chapter 4/calculate-area/target/*
-/0-The-Book/Chapter 4/calculate-area/.idea/*
-
-# Chapter 5
-/0-The-Book/Chapter 5/calculate-area-with-tuples/target/*
-/0-The-Book/Chapter 5/calculate-area-with-tuples/.idea/*
-/0-The-Book/Chapter 5/calculate-area-with-structs/target/*
-/0-The-Book/Chapter 5/calculate-area-with-structs/.idea/*
-/0-The-Book/Chapter 5/define-methods/target/*
-/0-The-Book/Chapter 5/define-methods/.idea/*
-
-# Chapter 6
-/0-The-Book/Chapter 6/enum-match/target/*
-/0-The-Book/Chapter 6/enum-match/.idea/*
-/0-The-Book/Chapter 6/enum-us-states/target/*
-/0-The-Book/Chapter 6/enum-us-states/.idea/*
-
-# Small Applicaitons
-/00-Small-Rust-Applications/work-roster/target/*
-/00-Small-Rust-Applications/work-roster/.idea/*
-/00-Small-Rust-Applications/todo-macro-example/target/*
-/00-Small-Rust-Applications/todo-macro-example/.idea/*
+**/target/**
+**/.idea/**

@@ -8,4 +8,7 @@ whatever language you know.
 
 ## Directory 
 
-0. Variables, Constants, Data Types
+### Syntax & Semantics
+
+1. Variables, Constants, Data Types
+2. Control Flow Constructs

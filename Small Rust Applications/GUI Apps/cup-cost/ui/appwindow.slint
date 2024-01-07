@@ -1,0 +1,201 @@
+import { GridBox, HorizontalBox, LineEdit, Button, VerticalBox} from "std-widgets.slint";
+
+export component CupCost inherits Window {
+    preferred-width: 1280px;
+    preferred-height: 720px;
+    background: #262626;
+
+    in property <string> results: "";
+
+    callback calculate-cost(    string, 
+                                string, 
+                                string, 
+                                string, 
+                                string, 
+                                string, 
+                                string, 
+                                string,
+                                string,
+                                string);
+
+    GridLayout {
+        spacing: 10px;
+        padding: 50px;
+        
+        // Heading
+        Row {
+            Text {
+                text: "Saving Money with Cup Cost";
+                font-family: "Lucida Console";
+                font-size: 24px;
+                font-weight: 900;
+            }
+        }
+        // Directions
+        Row {
+            Text {
+                text: "Fill out the form to calculate how much making a mixed energy drink costs at home.";
+                font-family: "Lucida Console";
+                font-size: 20px;
+                font-weight: 500;
+            }
+        }
+        // Cups & lids
+        Row {
+            HorizontalBox {
+                num-cups := LineEdit {
+                    font-size: 18px;
+                    height: 35px;
+                    horizontal-alignment: center;
+                    placeholder-text: "# of Cups & Lids";
+                }
+                Text {
+                    text: "x";
+                    horizontal-alignment: center;
+                    font-family: "Lucida Console";
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+                cups-price := LineEdit {
+                    font-size: 18px;
+                    height: 35px;
+                    horizontal-alignment: center;
+                    placeholder-text: "Enter price";
+                }
+            }
+        }
+        // Straws
+        Row {
+            HorizontalBox {
+                num-straws := LineEdit {
+                    font-size: 18px;
+                    height: 35px;
+                    horizontal-alignment: center;
+                    placeholder-text: "# of Straws";
+                }
+                Text {
+                    text: "x";
+                    horizontal-alignment: center;
+                    font-family: "Lucida Console";
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+                straws-price := LineEdit {
+                    font-size: 18px;
+                    height: 35px;
+                    horizontal-alignment: center;
+                    placeholder-text: "Enter price";
+                }
+            }
+        }
+        // Energy Drink Cans
+        Row {
+            HorizontalBox {
+                num-energy-drinks := LineEdit {
+                    font-size: 18px;
+                    height: 35px;
+                    horizontal-alignment: center;
+                    placeholder-text: "# of Energy Drinks";
+                }
+                Text {
+                    text: "x";
+                    horizontal-alignment: center;
+                    font-family: "Lucida Console";
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+                energy-drinks-price := LineEdit {
+                    font-size: 18px;
+                    height: 35px;
+                    horizontal-alignment: center;
+                    placeholder-text: "Enter price";
+                }
+            }
+        }
+        // Syrup
+        Row {
+            HorizontalBox {
+                num-srv-syrup := LineEdit {
+                    font-size: 18px;
+                    height: 35px;
+                    horizontal-alignment: center;
+                    placeholder-text: "# of servings (syrup)";
+                }
+                Text {
+                    text: "x";
+                    horizontal-alignment: center;
+                    font-family: "Lucida Console";
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+                syrup-price := LineEdit {
+                    font-size: 18px;
+                    height: 35px;
+                    horizontal-alignment: center;
+                    placeholder-text: "Enter price";
+                }
+            }
+        }
+        // Mixer
+        Row {
+            HorizontalBox {
+                num-srv-mixer := LineEdit {
+                    font-size: 18px;
+                    height: 35px;
+                    horizontal-alignment: center;
+                    placeholder-text: "# of servings (mixer)";
+                }
+                Text {
+                    text: "x";
+                    horizontal-alignment: center;
+                    font-family: "Lucida Console";
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+                mixer-price := LineEdit {
+                    font-size: 18px;
+                    height: 35px;
+                    horizontal-alignment: center;
+                    placeholder-text: "Enter price";
+                }
+            }
+        }
+        // Calculate Button
+        Row {
+            Button {
+                primary: true;
+                height: 35px;
+                // background: #96C6D9;
+                text: "Calculate";
+                clicked => {
+                    calculate-cost( num-cups.text,
+                                    cups-price.text,
+                                    num-straws.text,
+                                    straws-price.text,
+                                    num-energy-drinks.text,
+                                    energy-drinks-price.text,
+                                    num-srv-syrup.text,
+                                    syrup-price.text,
+                                    num-srv-mixer.text,
+                                    mixer-price.text);
+                }
+            }
+        }
+        // Output window
+        Row {
+            VerticalBox {
+                Rectangle {
+                    height: 300px;
+                    background: #737372;
+                    Text {
+                        color: #262626;
+                        font-size: 16px;
+                        font-weight: 500;
+                        horizontal-alignment: center;
+                        text: root.results;
+                    }
+                }
+            }
+        }
+    }
+}

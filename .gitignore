@@ -1,4 +1,4 @@
-# The Book
-
+# Global Ignores
 **/target/**
 **/.idea/**
+**/.vscode/**

@@ -12,3 +12,4 @@ whatever language you know.
 
 1. Variables, Constants, Data Types
 2. Control Flow Constructs
+3. functions & methods
